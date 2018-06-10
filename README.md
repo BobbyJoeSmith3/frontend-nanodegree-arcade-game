@@ -1,6 +1,15 @@
 frontend-nanodegree-arcade-game
 ===============================
+### To Play Game:
+1. Download or clone this repository.
+2. Open index.html in browser.
+3. Enjoy!
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+### Game Instructions:
+Use arrow keys to avoid beetles and navigate Char Boy to water. Each time Char Boy reaches water, player will move on to the next level and the beetles will move a little faster. Get caught by a beetle and player will have to start back at level 1.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+### Possible Future Updates:
+1. Style User Interface and make it more attractive.
+2. Allow user to select which character to use.
+3. Add additional items to game play (heart, key, rock etc.).
+4. Refactor code to use ECMA-6 classes ( Used ECMA-5 prototype functions for consistency and accessibility).
