@@ -29,7 +29,7 @@ Enemy.prototype.update = function(dt) {
     }
 
     // check for collision with player
-    if (player.x >= this.x -35 && player.x <= this.x + 35) {
+    if (player.x >= this.x -75 && player.x <= this.x + 75) {
         if (player.y >= this.y - 50 && player.y <= this.y + 60) {
             player.reset();
             // reset enemy speeds
